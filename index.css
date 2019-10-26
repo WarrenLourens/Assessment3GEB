@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    position: relative;
+    top: 1rem;
+    font-display: Georgia;
+    color: #ffffff;
+ 
+}
+input{
+    padding: 1px;
+    border-radius: 5px;
+    width: 25rem;
+}
+li{
+    padding:0.5rem;
+    display: inline;
+}
+.header{
+height: 5rem;
+width: 100%;
+    background-color: #333333;
+}
+.Cart{
+    position: fixed;
+    right: 0px;
+
+}
+.Login{
+    position: fixed;
+    right: 5rem;
+}
+
+h1{
+    font-family: Georgia;
+    color: #E64500;
+text-align: center;
+}
