@@ -14,18 +14,21 @@ input{
     border-radius: 5px;
     width: 25rem;
 }
-li{
+li:hover{
+    list-style: none;
+    color: #E64500;
     padding:0.5rem;
     display: inline;
 }
 .header{
-height: 5rem;
-width: 100%;
+    height: 100px;
     background-color: #333333;
+    grid-area: HD;
 }
-.Cart{
+.Cart:hover{
     position: fixed;
     right: 0px;
+    color: #E64500;
 
 }
 .Login{
@@ -37,4 +40,20 @@ h1{
     font-family: Georgia;
     color: #E64500;
 text-align: center;
+}
+.TopContainer{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-areas: "HD HD HD HD"
+                          "Img Img Img Img";
+    border: 5px solid #E64500;
+    column-gap: 5px;
+}
+
+img{
+    margin: 5px;
+    padding:5px;
+    height: 200px;
+    width: 200px;
+    border: 5px solid #E64500;
 }
