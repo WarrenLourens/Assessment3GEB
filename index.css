@@ -14,8 +14,12 @@
     color: #e84f05;
     font-size: 30px;
 }
+.Footer{
+    width: auto;
+    height: 100px;
+    background-color:#444;
+}
 .Header{
-    
     width: auto;
     height: 100px;
     background-color:#444;
@@ -33,6 +37,7 @@ li:hover{
     display: grid;
     grid-template-columns: auto auto auto auto;
     gap: 5px;
+    border: 5px solid #e84f05;
    
 }
 .Image{
