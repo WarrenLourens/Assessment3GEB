@@ -67,6 +67,8 @@ span{
 .GridView{
     display:grid;
     grid-template-columns: 20% 40% 40%;
+    grid-column-start: 2;
+    grid-column-end: 3;
     border: 5px solid #e84f05;
 
 }
