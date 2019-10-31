@@ -69,7 +69,7 @@ span{
     border: 5px solid #e84f05;
     border-radius: 10%;
 }
-
+/* ##########################################################--SOCIAL MEDIA--################################################## */
 .Twitter
 { 
     float:right;
@@ -115,6 +115,7 @@ span{
 	height:50px;
 	width:50px;
 }
+/* ###########################################################--SOCIAL MEDIA--#################################################### */
 .Flex-Container
 {
     justify-content:center;
@@ -168,4 +169,23 @@ button{
     background-color: white;
     border: 5px solid #e84f05;
 }
+/* #############################################--SPECIAL ORDERS FORM--################################################################ */
+input{
+    font-family: Georgia;
+    
+}
+.wrapper{
+    padding: 10px;
+    border: 5px solid #e84f05;
+    width: 500px;
+    height: 600px;
+    margin: 0 auto;
+}
+.wrapper input{
+display: flex;
 
+}
+#Pad{
+    margin-left: 30px;
+}
+/* ##############################################--SPECIAL ORDERS FROM--########################################################################## */
